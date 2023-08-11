@@ -15,7 +15,7 @@ function Adtemp(props) {
     return ( 
         <div className="admin-data">
         <div className="admin-profile" >
-          <div className="prof-imgg" style={{ backgroundImage :`${props.img}`}}></div>
+          <div className="prof-imgg" style={{ backgroundImage :`url(${props.img})`}}></div>
         </div>
         <div className="admin-det" onClick={()=>{dispatch(setCheck(props.id)); navigate(`/dasb`);}}>
           <h3>{props.title}</h3>
