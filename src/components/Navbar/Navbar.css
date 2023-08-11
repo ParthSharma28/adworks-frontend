@@ -1,0 +1,27 @@
+.navbar{
+    width:100%;
+    display:flex;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height:40px;
+    width:40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+}
+
+.nav_tabs{
+    display: flex;
+}
+
+.MuiButton-root.login{
+    height:100%;
+    margin-left: 1rem;
+}

@@ -1,0 +1,28 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap');
+*{
+  margin:0;
+}
+
+html,body,.app,#root{
+  height:100%;
+  width: 100%;
+  font-family: Poppins, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  /* color:white; */
+  margin:0;
+}
+
+body{
+  background-image: url(assets/images/dots.png);
+  background-size: contain;
+  /* background: rgb(3,24,108);
+background: linear-gradient(137deg, rgba(3,24,108,1) 0%, rgba(155,230,235,1) 67%); */
+}
+
+*{
+  text-transform: none;
+}
+

@@ -1,0 +1,42 @@
+.admin-data{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 12vh;
+    background-color: rgb(74, 63, 133);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.prof-imgg{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+    background-repeat: no-repeat;
+    background-size :100%;
+    background-size: cover;
+
+}
+.admin-det{
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    flex: 3;
+    margin-left: 30px;
+
+}
+.admin-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.users{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}

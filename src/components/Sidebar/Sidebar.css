@@ -1,0 +1,16 @@
+.login{
+    display:flex;
+    /* flex-direction: column; */
+    flex:1;     
+    justify-content: center;
+}
+.user_info p{
+    font-size: 1.5rem;
+}
+.user_info svg{
+    font-size: 2rem;
+    color: azure;
+}
+.sidebar_listitems{
+    margin: 1rem 0;
+}
